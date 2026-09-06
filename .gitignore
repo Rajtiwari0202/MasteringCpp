@@ -1,0 +1,65 @@
+# ==============================================================================
+# C++ Master Repository .gitignore
+# ==============================================================================
+
+# Executables & Binary Artifacts
+*.exe
+*.out
+*.app
+*.elf
+*.bin
+
+# Object Files & Intermediate Preprocessed Outputs
+*.o
+*.obj
+*.s
+*.i
+*.ii
+*.bc
+*.opt
+
+# Static & Dynamic Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Debugging Symbols & Memory Dumps
+*.pdb
+*.idb
+*.ilm
+*.ilc
+*.igs
+*.tds
+*.dSYM/
+*.core
+vgcore.*
+
+# Build Directories & Generated Files
+[Bb]uild/
+[Bb]in/
+[Ob]j/
+cmake-build-*/
+.cache/
+
+# IDE & Tooling Metadata
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# Temporary Output Files
+*.tmp
+*.log
+output.txt
+input.txt
+tempCodeRunnerFile.cpp
