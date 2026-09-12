@@ -1,0 +1,3 @@
+soap 5 10
+shampoo 10 20
+toothpaste 10 30
